@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060C9A891BBEA93700599838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 060C9A881BBEA93700599838 /* main.m */; };
+		060C9A8C1BBEA93700599838 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 060C9A8B1BBEA93700599838 /* AppDelegate.m */; };
+		060C9A8E1BBEA93700599838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060C9A8D1BBEA93700599838 /* Assets.xcassets */; };
+		060C9A911BBEA93700599838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060C9A8F1BBEA93700599838 /* LaunchScreen.storyboard */; };
+		060C9A9C1BBEAB0900599838 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 060C9A9B1BBEAB0900599838 /* CameraViewController.xib */; };
+		060C9A9F1BBEAC5300599838 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 060C9A9E1BBEAC5300599838 /* CameraViewController.m */; };
+		060C9AA11BBEB04100599838 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060C9AA01BBEB04100599838 /* AVFoundation.framework */; };
+		060C9AA31BBEB05800599838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060C9AA21BBEB05800599838 /* Foundation.framework */; };
+		060C9AA91BBEB0FB00599838 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060C9AA41BBEB0FB00599838 /* AssetsLibrary.framework */; };
+		060C9AAA1BBEB0FB00599838 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060C9AA51BBEB0FB00599838 /* CoreImage.framework */; };
+		060C9AAB1BBEB0FB00599838 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060C9AA61BBEB0FB00599838 /* CoreMedia.framework */; };
+		060C9AAC1BBEB0FB00599838 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060C9AA71BBEB0FB00599838 /* CoreMotion.framework */; };
+		060C9AAD1BBEB0FB00599838 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060C9AA81BBEB0FB00599838 /* CoreVideo.framework */; };
+		060C9AAF1BBEB11D00599838 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060C9AAE1BBEB11D00599838 /* Accelerate.framework */; };
+		060C9AB31BBEB57500599838 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060C9AB21BBEB57500599838 /* QuartzCore.framework */; };
+		060C9AB51BBEB65500599838 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060C9AB41BBEB65500599838 /* UIKit.framework */; };
+		060C9AB71BBEB66C00599838 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060C9AB61BBEB66C00599838 /* CoreGraphics.framework */; };
+		0629389D1D76FF5700EE6490 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0629389C1D76FF5700EE6490 /* opencv2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		060C9A841BBEA93700599838 /* OpticalFlowTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpticalFlowTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		060C9A881BBEA93700599838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		060C9A8A1BBEA93700599838 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		060C9A8B1BBEA93700599838 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		060C9A8D1BBEA93700599838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		060C9A901BBEA93700599838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		060C9A921BBEA93700599838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060C9A9B1BBEAB0900599838 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		060C9A9D1BBEAC5300599838 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		060C9A9E1BBEAC5300599838 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		060C9AA01BBEB04100599838 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		060C9AA21BBEB05800599838 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		060C9AA41BBEB0FB00599838 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		060C9AA51BBEB0FB00599838 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		060C9AA61BBEB0FB00599838 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		060C9AA71BBEB0FB00599838 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		060C9AA81BBEB0FB00599838 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		060C9AAE1BBEB11D00599838 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		060C9AB21BBEB57500599838 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		060C9AB41BBEB65500599838 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		060C9AB61BBEB66C00599838 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0629389C1D76FF5700EE6490 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		060C9A811BBEA93700599838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0629389D1D76FF5700EE6490 /* opencv2.framework in Frameworks */,
+				060C9AB71BBEB66C00599838 /* CoreGraphics.framework in Frameworks */,
+				060C9AB51BBEB65500599838 /* UIKit.framework in Frameworks */,
+				060C9AB31BBEB57500599838 /* QuartzCore.framework in Frameworks */,
+				060C9AAF1BBEB11D00599838 /* Accelerate.framework in Frameworks */,
+				060C9AA91BBEB0FB00599838 /* AssetsLibrary.framework in Frameworks */,
+				060C9AAA1BBEB0FB00599838 /* CoreImage.framework in Frameworks */,
+				060C9AAB1BBEB0FB00599838 /* CoreMedia.framework in Frameworks */,
+				060C9AAC1BBEB0FB00599838 /* CoreMotion.framework in Frameworks */,
+				060C9AAD1BBEB0FB00599838 /* CoreVideo.framework in Frameworks */,
+				060C9AA31BBEB05800599838 /* Foundation.framework in Frameworks */,
+				060C9AA11BBEB04100599838 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060C9A7B1BBEA93700599838 = {
+			isa = PBXGroup;
+			children = (
+				060C9A861BBEA93700599838 /* OpticalFlowTrack */,
+				060C9A9A1BBEAA7D00599838 /* FrameWorks */,
+				060C9A851BBEA93700599838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		060C9A851BBEA93700599838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				060C9A841BBEA93700599838 /* OpticalFlowTrack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		060C9A861BBEA93700599838 /* OpticalFlowTrack */ = {
+			isa = PBXGroup;
+			children = (
+				060C9A8A1BBEA93700599838 /* AppDelegate.h */,
+				060C9A8B1BBEA93700599838 /* AppDelegate.m */,
+				060C9A9D1BBEAC5300599838 /* CameraViewController.h */,
+				060C9A9E1BBEAC5300599838 /* CameraViewController.m */,
+				060C9A9B1BBEAB0900599838 /* CameraViewController.xib */,
+				060C9A871BBEA93700599838 /* Supporting Files */,
+			);
+			path = OpticalFlowTrack;
+			sourceTree = "<group>";
+		};
+		060C9A871BBEA93700599838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				060C9A8D1BBEA93700599838 /* Assets.xcassets */,
+				060C9A8F1BBEA93700599838 /* LaunchScreen.storyboard */,
+				060C9A921BBEA93700599838 /* Info.plist */,
+				060C9A881BBEA93700599838 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		060C9A9A1BBEAA7D00599838 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				0629389C1D76FF5700EE6490 /* opencv2.framework */,
+				060C9AB61BBEB66C00599838 /* CoreGraphics.framework */,
+				060C9AB41BBEB65500599838 /* UIKit.framework */,
+				060C9AB21BBEB57500599838 /* QuartzCore.framework */,
+				060C9AAE1BBEB11D00599838 /* Accelerate.framework */,
+				060C9AA41BBEB0FB00599838 /* AssetsLibrary.framework */,
+				060C9AA51BBEB0FB00599838 /* CoreImage.framework */,
+				060C9AA61BBEB0FB00599838 /* CoreMedia.framework */,
+				060C9AA71BBEB0FB00599838 /* CoreMotion.framework */,
+				060C9AA81BBEB0FB00599838 /* CoreVideo.framework */,
+				060C9AA21BBEB05800599838 /* Foundation.framework */,
+				060C9AA01BBEB04100599838 /* AVFoundation.framework */,
+			);
+			name = FrameWorks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		060C9A831BBEA93700599838 /* OpticalFlowTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060C9A951BBEA93700599838 /* Build configuration list for PBXNativeTarget "OpticalFlowTrack" */;
+			buildPhases = (
+				060C9A801BBEA93700599838 /* Sources */,
+				060C9A811BBEA93700599838 /* Frameworks */,
+				060C9A821BBEA93700599838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpticalFlowTrack;
+			productName = OpticalFlowTrack;
+			productReference = 060C9A841BBEA93700599838 /* OpticalFlowTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		060C9A7C1BBEA93700599838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Hartisan;
+				TargetAttributes = {
+					060C9A831BBEA93700599838 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CJG4ZX5LK2;
+					};
+				};
+			};
+			buildConfigurationList = 060C9A7F1BBEA93700599838 /* Build configuration list for PBXProject "OpticalFlowTrack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 060C9A7B1BBEA93700599838;
+			productRefGroup = 060C9A851BBEA93700599838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				060C9A831BBEA93700599838 /* OpticalFlowTrack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		060C9A821BBEA93700599838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060C9A9C1BBEAB0900599838 /* CameraViewController.xib in Resources */,
+				060C9A8E1BBEA93700599838 /* Assets.xcassets in Resources */,
+				060C9A911BBEA93700599838 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		060C9A801BBEA93700599838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060C9A9F1BBEAC5300599838 /* CameraViewController.m in Sources */,
+				060C9A8C1BBEA93700599838 /* AppDelegate.m in Sources */,
+				060C9A891BBEA93700599838 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		060C9A8F1BBEA93700599838 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				060C9A901BBEA93700599838 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		060C9A931BBEA93700599838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		060C9A941BBEA93700599838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		060C9A961BBEA93700599838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				INFOPLIST_FILE = OpticalFlowTrack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = Buaa.OpticalFlowTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		060C9A971BBEA93700599838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				INFOPLIST_FILE = OpticalFlowTrack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = Buaa.OpticalFlowTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		060C9A7F1BBEA93700599838 /* Build configuration list for PBXProject "OpticalFlowTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060C9A931BBEA93700599838 /* Debug */,
+				060C9A941BBEA93700599838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060C9A951BBEA93700599838 /* Build configuration list for PBXNativeTarget "OpticalFlowTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060C9A961BBEA93700599838 /* Debug */,
+				060C9A971BBEA93700599838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 060C9A7C1BBEA93700599838 /* Project object */;
+}
